@@ -1,0 +1,19 @@
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+@media (max-width: 768px) {
+  
+  .table {
+      overflow-x: auto;
+  }
+
+  .table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+  }
+}
