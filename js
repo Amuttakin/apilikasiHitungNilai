@@ -31,8 +31,14 @@
             if (!presensiPraktik ) {
                 alert('Presensi Kosong !!!!!!!!!!!!!!! \n Mohon lengkapi semua data');
                 return;}
+            if (presensiPraktik > 14) {
+                alert('Maksimal Presensi 14 !!!!!!!!!!!!!!!');
+                return;}
             if (!presensiTeori ) {
                 alert('Presensi Kosong !!!!!!!!!!!!!!! \n Mohon lengkapi semua data');
+                return;}
+            if (presensiTeori > 14) {
+                alert('Maksimal Presensi 14 !!!!!!!!!!!!!');
                 return;}
             if (!tugasPraktik ) {
                 alert('Tugas Praktik Kososng !!!!!!!!!!!!!!! \n Mohon lengkapi semua data');
